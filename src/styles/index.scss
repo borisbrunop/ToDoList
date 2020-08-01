@@ -1,4 +1,18 @@
 @import "~bootstrap/scss/bootstrap.scss";
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+li span {
+    color: red;
+    opacity: 0;
+    }
+li:hover span {
+        opacity: 1.0;
+        }
+// .form-control{
+//         border: none;
+//     }
+
 
 /* 
 

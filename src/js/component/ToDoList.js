@@ -31,6 +31,7 @@ function ToDoList({ addTodo }) {
 				//reset input
 				setTask({ ...task, taskString: "" });
 			}
+			e.target.value = "";
 		}
 	}
 
